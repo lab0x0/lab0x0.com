@@ -1,0 +1,32 @@
+{{ partial "header" . }}
+
+<!--allrecords-->
+<div id="allrecords" class="t-records" data-hook="blocks-collection-content-node" data-tilda-project-id="297604" data-tilda-page-id="1187258"
+  data-tilda-page-alias="indexhtml" data-tilda-formskey="382468536c7acf8ef4aa5da141fdb60f" data-blocks-animationoff="yes">
+
+{{ partial "cover" . }} 
+
+{{ if .Site.Params.settings.notice }}
+  {{ partial "notice" . }}
+{{ end }}  
+
+
+{{ if .Site.Params.settings.events }}
+  {{ partial "events" . }}
+{{ end }}  
+
+{{ partial "story" . }} 
+<!-- {{ partial "team" . }} -->
+{{ partial "services" . }}
+{{ partial "photos" . }}
+{{ partial "video" . }}
+{{ partial "membership" . }}
+{{ partial "map" . }}
+{{ partial "wechat" . }}
+{{ partial "github" . }}
+<!-- {{ partial "makerspaces" . }} -->
+
+</div>
+<!--/allrecords-->
+
+{{ partial "footer" . }}

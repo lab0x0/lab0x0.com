@@ -1,0 +1,41 @@
+<div id="rec25351922" class="r" style="padding-top:100px;padding-bottom:80px; " data-record-type="521">
+  <!-- T521 -->
+  <div class="t521">
+    <div class="t-section__container t-container">
+      <div class="t-col t-col_12">
+        <div class="t-section__topwrapper t-align_center" style="margin-bottom: 0px;">
+          <div class="t-section__title t-title t-title_xs " field="btitle">活动 <br><span style="font-weight: 500;">Events</span></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="t-container">
+        {{ $paginator := .Paginate (where .Data.Pages "Type" "event") }}
+        {{ range $paginator.Pages.ByDate }}
+
+      <div class="t521__row t-row t-clear">
+        <div class="t521__leftcol t-col t-col_3 t-prefix_3" style="margin-bottom: 0px;">
+          <div class="t521__time t-name t-name_xl" style="" field="li_date__1499612886178">{{ .Params.eventDateZH }}<br />{{ .Params.eventDateEN }}</div>
+        </div>
+        <div class="t521__rightcol t-col t-col_4" style="margin-bottom: 0px;">
+          <div class="t521__text t-text t-text_md" style="" field="li_text__1499612886178">
+              {{ .Content }} 
+          </div>
+        </div>
+      </div>
+
+        {{ end }}
+    </div>
+  </div>
+</div>
+
+<div id="rec25352370" class="r" style=" " data-record-type="126">
+  <!-- T118 -->
+  <div class="t118">
+    <div class="t-container">
+      <div class="t-col t-col_12 ">
+        <hr class="t118__line" style="background-color:#000000;opacity:0.2;">
+      </div>
+    </div>
+  </div>
+</div>
