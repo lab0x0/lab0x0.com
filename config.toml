@@ -23,3 +23,4 @@ paginatePath = "events/page"
 [params.settings]
     events = true
     notice = true
+    button = true
