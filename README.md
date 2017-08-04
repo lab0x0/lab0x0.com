@@ -1,8 +1,11 @@
 ```
 ## How to deploy this web site
 
-Please note, images and videos are not in git repository.
-rsync -avzh --delete --progress ./public/ username@lab0x0.com:~/lab0x0.com
+git clone https://github.com/lab0x0/lab0x0.com
 
-docker run -d --restart=always -p 80:80 --network=hk -v="$(pwd)/default.conf:/etc/nginx/conf.d/default.conf" -v="$(pwd)/lab0x0.com:/var/www/lab0x0.com" --name=nginx nginx:1.13-alpine
-```
+Please note, images and videos are not in git repository.
+rsync -avzh --delete --progress ./public/ username@lab0x0.com:~/lab0x0.com/public
+
+docker build --tag=nginx-le .
+
+docker run -d --restart=always -p 80:80 -p 443:443 --network=hk -e LETSENCRYPT=true -v="$(pwd)/lab0x0.conf:/etc/nginx/lab0x0.conf" -v="$(pwd)/public:/var/www/lab0x0.com" -v="$(pwd)/le:/etc/letsencrypt" --name=nginx-le nginx-le

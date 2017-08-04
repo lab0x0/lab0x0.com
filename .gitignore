@@ -2,3 +2,9 @@
 public
 static/images
 static/videos
+le
+test.conf
+*~
+*.swp
+.env
+

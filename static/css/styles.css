@@ -15,6 +15,16 @@
 } 
 
 
+
+
+@media screen and (max-width: 520px) {
+
+    .t681__pricewrapper {
+        text-align: center !important;
+    }
+
+}
+
 @media screen and (max-width:960px) {
 
     #rec25351922 .t-container {
@@ -22,11 +32,15 @@
         text-align: center;
     }
 
-    #rec27825054 .t-container, #rec27826554 .t-container, #rec27815872 .t-container, #rec27823778 .t-container{
+    #rec27825054 .t-container, #rec27826554 .t-container, #rec27815872 .t-container, #rec27823778 .t-container, #rec27917992 .t-container{
         max-width: 40%;
     }
 
-    #rec27825248 .t-container, #rec27798742 .t-container, #rec27798770 .t-container {
+    #rec27917992 .t-container{
+        max-width: 30%;
+    }
+
+    #rec27825248 .t-container, #rec27798742 .t-container, #rec27798770 .t-container{
         max-width: 60%;
     }
 }
