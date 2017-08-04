@@ -15,3 +15,18 @@
 } 
 
 
+@media screen and (max-width:960px) {
+
+    #rec25351922 .t-container {
+        max-width: 640px;
+        text-align: center;
+    }
+
+    #rec27825054 .t-container, #rec27826554 .t-container, #rec27815872 .t-container, #rec27823778 .t-container{
+        max-width: 40%;
+    }
+
+    #rec27825248 .t-container, #rec27798742 .t-container, #rec27798770 .t-container {
+        max-width: 60%;
+    }
+}

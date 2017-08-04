@@ -1,15 +1,15 @@
 baseURL = "http://lab0x0.com/"
 title = "零空间 / LAB ZERO"
 theme = "tilda"
-description = "创客空间 真的 / The only one a real true makerspace in Shenzhen"
+description = "创客空间 真的 / A genuine makerspace in Shenzhen"
 
 [blackfriday]
   extensions = ["hardLineBreak"]
 
 [params]
-    subtitle = "创客空间 真的 / The only one a real true makerspace in Shenzhen"
+    subtitle = "创客空间 真的 / A genuine makerspace in Shenzhen"
     fbAppID = "257953674358265"
-    OgImage = "tild3431-6336-4565-b665-376335346639__shutterstock_256309363_.jpg"
+    OgImage = "cover.jpg"
 
 paginate = 2
 canonifyurls = true
