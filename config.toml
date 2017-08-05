@@ -9,7 +9,7 @@ description = "创客空间 真的 / A genuine makerspace in Shenzhen"
 [params]
     subtitle = "创客空间 真的 / A genuine makerspace in Shenzhen"
     fbAppID = "257953674358265"
-    OgImage = "cover.jpg"
+    OgImage = "fb.png"
 
 paginate = 2
 canonifyurls = true

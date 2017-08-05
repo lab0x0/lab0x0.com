@@ -5,6 +5,11 @@
 
 {{ partial "cover" . }} 
 
+{{ if .Site.Params.settings.events }}
+  <!-- {{ partial "events" . }} -->
+  {{ partial "opening" . }}
+{{ end }}  
+
 {{ if .Site.Params.settings.notice }}
   {{ partial "notice" . }}
 {{ end }}  
@@ -13,18 +18,13 @@
   {{ partial "button" . }}
 {{ end }}  
 
-
-{{ if .Site.Params.settings.events }}
-  {{ partial "events" . }}
-{{ end }}  
-
 {{ partial "story" . }} 
 <!-- {{ partial "team" . }} -->
 {{ partial "services" . }}
-{{ partial "business" . }}
 {{ partial "photos" . }}
 {{ partial "video" . }}
 {{ partial "membership" . }}
+{{ partial "business" . }}
 {{ partial "map" . }}
 {{ partial "wechat" . }}
 {{ partial "github" . }}
