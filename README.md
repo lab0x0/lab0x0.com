@@ -8,4 +8,4 @@ rsync -avzh --delete --progress ./public/ username@lab0x0.com:~/lab0x0.com/publi
 
 docker build --tag=nginx-le .
 
-docker run -d --restart=always -p 80:80 -p 443:443 --network=hk -e LETSENCRYPT=true -v="$(pwd)/lab0x0.conf:/etc/nginx/lab0x0.conf" -v="$(pwd)/public:/var/www/lab0x0.com" -v="$(pwd)/le:/etc/letsencrypt" --name=nginx-le nginx-le
+docker run -d --restart=always -p 80:80 -p 443:443 --network=hk -e LETSENCRYPT=true -v="$(pwd)/lab0x0.conf:/etc/nginx/lab0x0.conf" -v="$(pwd)/le.conf:/etc/nginx/le.conf" -v="$(pwd)/public:/var/www/lab0x0.com" -v="$(pwd)/le:/etc/letsencrypt" --name=nginx-le nginx-le
