@@ -12,6 +12,11 @@ description = "创客空间 真的 / A genuine makerspace in Shenzhen"
     OgImage = "small-logo.png"
 
 paginate = 2
+# paginatePath = "p"
+
+[permalinks]
+    pluralizeListTitles = true
+
 canonifyurls = true
 disableSitemap = true
 disableRSS = true

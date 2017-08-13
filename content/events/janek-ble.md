@@ -14,7 +14,7 @@ Bluetooth LE. How to hack things.
 
 +++
 
-![](images/janek.jpg)
+![](/images/janek.jpg)
 
 +++
 
