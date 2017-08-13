@@ -1,12 +1,10 @@
-{{ $paginator := .Paginate (where .Data.Pages "Type" "event") }} 
-  {{ range $paginator.Pages.ByDate }}
 
-<div id="rec27918718" class="r" style="padding-top:145px;background-color:#000; " data-record-type="474" data-bg-color="#000">
+<div id="rec27918718" class="r" style="padding-top:245px;background-color:#000; " data-record-type="474" data-bg-color="#000">
   <div class="t474">
     <div class="t-container t-align_center">
       <div class="t-col t-col_10 t-prefix_1">
         <div class="t474__descr t-descr t-descr_xxxl t-margin_auto" field="descr" style="color:#ffffff;font-size:22px;">
-          <div style="font-size:46px;" data-customstyle="yes"><span style="font-weight: 600;">{{ .Params.eventTille }}</span></div>
+          <div style="font-size:46px;" data-customstyle="yes"><span style="font-weight: 600;">Friday Open Nights</span></div>
         </div>
       </div>
     </div>
@@ -15,20 +13,38 @@
 
 <!-- background-color:#cbfa91; -->
 
+{{ $paginator := .Paginate (where .Data.Pages "Type" "event") }} 
+  {{ range $paginator.Pages.ByDate }}
+
+
 <div id="rec25351922" class="r" style="padding-bottom:0px;background-color:#000; " data-record-type="521" data-bg-color="#000">
   <div class="t521">
     <div class="t-container">
 
       <div class="t521__row t-row t-clear">
-        <div class="t521__leftcol t-col t-col_3 t-prefix_2">
+        <div class="t521__leftcol t-col t-col_3 t-prefix_3">
           <div class="t521__time t-name t-name_xl" style="" field="li_date__1477566953166">
-            <div class="t521__time t-name t-name_xl" style="color:#ffffff;" field="li_date__1499612886178">{{ .Params.eventDateZH }}<br />{{ .Params.eventDateEN }}</div>
+            <div class="t521__time t-name t-name_xl" style="color:#ffffff;" field="li_date__1499612886178">
+
+               {{ $cols := split .Content "+++" }}
+              {{ range last 1 (first 1 $cols)}}
+              <div class="date">
+                {{ . | markdownify }}
+              </div>
+              {{ end }} 
+
+            </div>
           </div>
         </div>
-        <div class="t521__rightcol t-col t-col_6 ">
+        <div class="t521__rightcol t-col t-col_5 ">
           <div class="t521__text t-text t-text_md" style="color:#ffffff;" field="li_text__1477566953166">
             <div style="font-size:20px;font-weight: 600;" data-customstyle="yes">
-              {{ .Content }}
+
+              {{ $cols := split .Content "+++" }}
+              {{ range last 1 (first 2 $cols)}}
+                {{ . | markdownify }}
+              {{ end }}
+
             </div>
           </div>
         </div>
@@ -42,18 +58,28 @@
   <div class="t521">
     <div class="t-container">
       <div class="t521__row t-row t-clear">
-        <div class="t521__leftcol t-col t-col_3 t-prefix_2">
+        <div class="t521__leftcol t-col t-col_3 t-prefix_3">
           <div class="t521__time t-name t-name_xl" style="" field="li_date__1477566953166">
             <div class="t521__time t-name t-name_xl" style="color:#ffffff;" field="li_date__1499612886178">
-              <img class="t196__img t-img" src="images/janek.jpg"/>
+            
+            
+              {{ $cols := split .Content "+++" }}
+              {{ range last 1 (first 3 $cols)}}
+                {{ . | markdownify }}
+              {{ end }}  
+
+
             </div>
           </div>
         </div>
-        <div class="t521__rightcol t-col t-col_6 ">
+        <div class="t521__rightcol t-col t-col_5 desc ">
           <div class="t521__text t-text t-text_md" style="color:#ffffff;" field="li_text__1477566953166">
-            <div style="font-size:16px;font-weight: 400;" data-customstyle="yes">
-              Janek Mann is a hardware product designer focusing on wireless electronic devices with a special focus on smartphone accessories using Bluetooth LE. Janek takes projects from conception through prototype hardware development to fully fledged solutions combining custom hardware, enclosures, firmware and apps. Janek also has experience in getting hardware manufactured at high quality in Shenzhen, China.
-            </div>
+              <div>  
+              {{ $cols := split .Content "+++" }}
+              {{ range last 1 (first 4 $cols)}}
+                {{ . | markdownify }}
+              {{ end }}  
+              </div>  
           </div>
         </div>
       </div>
@@ -61,6 +87,8 @@
   </div>
 </div>          
 
+
+{{ end }}
 
   <div id="rec27913970" class="r" style="background-color:#000; " data-record-type="126">
   <div class="t118">
@@ -73,7 +101,7 @@
 </div>  
 
 
- <div id="rec27915576" class="r" style="padding-top:30px;padding-bottom:145px;background-color:#000; " data-record-type="474">
+ <div id="rec27915576" class="r" style="padding-top:30px;padding-bottom:230px;background-color:#000; " data-record-type="474">
   <div class="t474">
     <div class="t-container t-align_center" style="text-align: left!important;">
       <div class="t-col t-col_8 t-prefix_3">
@@ -86,15 +114,3 @@
   </div>
 </div> 
 
-
- <!-- <div id="rec27913970" class="r" style=" " data-record-type="126">
-  <div class="t118">
-    <div class="t-container">
-      <div class="t-col t-col_12 ">
-        <hr class="t118__line" style="background-color:#000000;opacity:0.2;">
-      </div>
-    </div>
-  </div>
-</div>  -->
-
-{{ end }}
