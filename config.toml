@@ -9,7 +9,7 @@ description = "创客空间 真的 / A genuine makerspace in Shenzhen"
 [params]
     subtitle = "创客空间 真的 / A genuine makerspace in Shenzhen"
     fbAppID = "257953674358265"
-    OgImage = "fb.png"
+    OgImage = "small-logo.png"
 
 paginate = 2
 canonifyurls = true
@@ -21,6 +21,6 @@ disableKinds = ["events", "page", "home", "section", "taxonomy", "taxonomyTerm",
 paginatePath = "events/page"
 
 [params.settings]
-    events = true
+    # events = true
     notice = true
     button = true

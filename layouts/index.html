@@ -5,17 +5,16 @@
 
 {{ partial "cover" . }} 
 
-{{ if .Site.Params.settings.events }}
-  <!-- {{ partial "events" . }} -->
-  {{ partial "opening" . }}
-{{ end }}  
-
 {{ if .Site.Params.settings.notice }}
   {{ partial "notice" . }}
 {{ end }}  
 
 {{ if .Site.Params.settings.button }}
   {{ partial "button" . }}
+{{ end }}  
+
+{{ if .Site.Params.settings.events }}
+   {{ partial "events" . }} 
 {{ end }}  
 
 {{ partial "story" . }} 

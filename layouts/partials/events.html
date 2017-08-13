@@ -1,60 +1,93 @@
-<div id="rec27918718" class="r" style="padding-top:45px;background-color:#fff5ba; " data-record-type="474" data-bg-color="#fff5ba">
-  <!-- T474 -->
+{{ $paginator := .Paginate (where .Data.Pages "Type" "event") }} 
+  {{ range $paginator.Pages.ByDate }}
 
+<div id="rec27918718" class="r" style="padding-top:145px;background-color:#000; " data-record-type="474" data-bg-color="#000">
   <div class="t474">
     <div class="t-container t-align_center">
       <div class="t-col t-col_10 t-prefix_1">
-        <div class="t474__descr t-descr t-descr_xxxl t-margin_auto" field="descr" style="color:#525252;font-size:22px;">
-          <div style="font-size:46px;" data-customstyle="yes"><span style="font-weight: 600;">开幕酒会 / LAB ZERO Opening Party</span></div>
+        <div class="t474__descr t-descr t-descr_xxxl t-margin_auto" field="descr" style="color:#ffffff;font-size:22px;">
+          <div style="font-size:46px;" data-customstyle="yes"><span style="font-weight: 600;">{{ .Params.eventTille }}</span></div>
         </div>
       </div>
     </div>
   </div>
-
 </div>
 
-<div id="rec25351922" class="r" style="background-color:#fff5ba; " data-record-type="521" data-bg-color="#fff5ba">
-  <!-- T521 -->
-  <div class="t521">
+<!-- background-color:#cbfa91; -->
 
+<div id="rec25351922" class="r" style="padding-bottom:0px;background-color:#000; " data-record-type="521" data-bg-color="#000">
+  <div class="t521">
     <div class="t-container">
-      {{ $paginator := .Paginate (where .Data.Pages "Type" "event") }} {{ range $paginator.Pages.ByDate }}
 
       <div class="t521__row t-row t-clear">
-        <div class="t521__leftcol t-col t-col_3 t-prefix_3">
+        <div class="t521__leftcol t-col t-col_3 t-prefix_2">
           <div class="t521__time t-name t-name_xl" style="" field="li_date__1477566953166">
-            <div class="t521__time t-name t-name_xl" style="color:#525252;" field="li_date__1499612886178">{{ .Params.eventDateZH }}<br />{{ .Params.eventDateEN }}</div>
+            <div class="t521__time t-name t-name_xl" style="color:#ffffff;" field="li_date__1499612886178">{{ .Params.eventDateZH }}<br />{{ .Params.eventDateEN }}</div>
           </div>
         </div>
-        <div class="t521__rightcol t-col t-col_4 ">
-          <div class="t521__text t-text t-text_md" style="color:#525252;" field="li_text__1477566953166">
+        <div class="t521__rightcol t-col t-col_6 ">
+          <div class="t521__text t-text t-text_md" style="color:#ffffff;" field="li_text__1477566953166">
             <div style="font-size:20px;font-weight: 600;" data-customstyle="yes">
               {{ .Content }}
             </div>
           </div>
         </div>
       </div>
-      {{ end }}
     </div>
   </div>
 </div>
 
 
-<!-- <div id="rec27915576" class="r" style="padding-top:45px;padding-bottom:15px; " data-record-type="474">
+<div id="rec25351922" class="r" style="padding-top:0px;padding-bottom:45px;background-color:#000; " data-record-type="521" data-bg-color="#000">
+  <div class="t521">
+    <div class="t-container">
+      <div class="t521__row t-row t-clear">
+        <div class="t521__leftcol t-col t-col_3 t-prefix_2">
+          <div class="t521__time t-name t-name_xl" style="" field="li_date__1477566953166">
+            <div class="t521__time t-name t-name_xl" style="color:#ffffff;" field="li_date__1499612886178">
+              <img class="t196__img t-img" src="images/janek.jpg"/>
+            </div>
+          </div>
+        </div>
+        <div class="t521__rightcol t-col t-col_6 ">
+          <div class="t521__text t-text t-text_md" style="color:#ffffff;" field="li_text__1477566953166">
+            <div style="font-size:16px;font-weight: 400;" data-customstyle="yes">
+              Janek Mann is a hardware product designer focusing on wireless electronic devices with a special focus on smartphone accessories using Bluetooth LE. Janek takes projects from conception through prototype hardware development to fully fledged solutions combining custom hardware, enclosures, firmware and apps. Janek also has experience in getting hardware manufactured at high quality in Shenzhen, China.
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+  </div>
+</div>          
+
+
+  <div id="rec27913970" class="r" style="background-color:#000; " data-record-type="126">
+  <div class="t118">
+    <div class="t-container">
+      <div class="t-col t-col_12 ">
+        <hr class="t118__line" style="background-color:#ffffff;opacity:1;">
+      </div>
+    </div>
+  </div>
+</div>  
+
+
+ <div id="rec27915576" class="r" style="padding-top:30px;padding-bottom:145px;background-color:#000; " data-record-type="474">
   <div class="t474">
-    <div class="t-container t-align_center">
-      <div class="t-col t-col_10 t-prefix_1">
-        <div class="t474__descr t-descr t-descr_xxxl t-margin_auto" field="descr" style="color:#525252;font-size:22px;">
-          <div style="font-size:18px;color:#a0a0a0;" data-customstyle="yes"><span style="font-weight: 400;">— Can I run an event at LAB ZERO? <br />— Yes, every week we have Open Friday Night from 19:00 to 21:00  <br /><br /> If you are a maker, and would like to teach people how to build something, <br />you can share your project on Open Friday Night. Please contact us.</span><br
+    <div class="t-container t-align_center" style="text-align: left!important;">
+      <div class="t-col t-col_8 t-prefix_3">
+        <div class="t474__descr t-descr t-descr_xxxl t-margin_auto" field="descr" style="color:#ffffff;font-size:22px;">
+          <div style="font-size:18px;color:#ffffff;" data-customstyle="yes"><span style="font-weight: 400;">— Can I run an event at LAB ZERO? <br />— Yes, every week we have Open Friday Night from 19:00 to 21:00  <br /><br /> If you are a maker, and would like to teach people how to build something, <br />you can share your project on Open Friday Night. Please contact us.</span><br
             /></div>
         </div>
       </div>
     </div>
   </div>
-</div> -->
+</div> 
 
 
-<!-- <div id="rec27913970" class="r" style=" " data-record-type="126">
+ <!-- <div id="rec27913970" class="r" style=" " data-record-type="126">
   <div class="t118">
     <div class="t-container">
       <div class="t-col t-col_12 ">
@@ -62,4 +95,6 @@
       </div>
     </div>
   </div>
-</div> -->
+</div>  -->
+
+{{ end }}
