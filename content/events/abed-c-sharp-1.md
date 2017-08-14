@@ -11,7 +11,7 @@ Friday, August 25
 ## ABED BUKHARI
 绝对初学者的C# 如何开始讨厌Linux。
 C# for absolutely beginners. 
-How to start hate Linux.
+How to start hating Linux.
 
 +++
 
