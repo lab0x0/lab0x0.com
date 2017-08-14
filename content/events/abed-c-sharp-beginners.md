@@ -19,4 +19,4 @@ How to start hating Linux.
 
 +++
 
-Abed Bukhari is an engineer, co-Founder BlindSense, inventor, programmer and scientific entrepreneur who brings science fictions to real world. He is also has advance C# programming skills, has Microsoft certificates: MCPD, MCTS, MCP.
+Abed Bukhari is an engineer, co-Founder BlindSense, inventor, programmer and scientific entrepreneur who brings science fictions to real world. He is also has advance C# programming skills, has Microsoft certificates: MCPD, MCTS, MCP. Abed is a big fan of Microsoft Windows.
