@@ -1,3 +1,7 @@
+.t253__text {
+    margin-bottom: 24px;
+}
+
 .t214__blockimg {
     max-width: 100%;
     height: 360px;
@@ -28,6 +32,18 @@
     font-weight: 400;
     font-size: 16px;
 } 
+
+.t521__rightcol.t-col.t-col_5.desc h3{
+    font-family: 'Roboto',sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    text-decoration: underline;
+} 
+
+.t521__rightcol.t-col.t-col_5.desc p:nth-child(1n+3){
+    margin-bottom: 10px;
+} 
+
 
 .t521__leftcol.t-col.t-col_3.t-prefix_3 > div > div > div.date{
     margin-top: 3px;

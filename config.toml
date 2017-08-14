@@ -11,7 +11,7 @@ description = "创客空间 真的 / A genuine makerspace in Shenzhen"
     fbAppID = "257953674358265"
     OgImage = "small-logo.png"
 
-paginate = 2
+paginate = 5
 # paginatePath = "p"
 
 [permalinks]
