@@ -28,7 +28,7 @@
 </div>
 
 
-{{ $paginator := .Paginate (where .Data.Pages "Type" "events") }} 
+{{ $paginator := .Paginate (where .Data.Pages "Section" "events") }} 
   {{ range $paginator.Pages.ByDate }}
 
 
