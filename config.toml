@@ -26,6 +26,6 @@ disableKinds = ["events", "page", "home", "section", "taxonomy", "taxonomyTerm",
 paginatePath = "events/page"
 
 [params.settings]
-    # events = true
+    events = true
     notice = true
     button = true

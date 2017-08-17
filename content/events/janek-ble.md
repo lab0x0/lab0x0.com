@@ -1,10 +1,10 @@
 ---
-date: 2017-08-18
+date: 2017-08-25
 type: "active"
 ---
 
-8月18日星期五
-Friday, August 18
+8月25日星期五
+Friday, August 25
 ### 19:00 ~ 21:00 
 
 +++

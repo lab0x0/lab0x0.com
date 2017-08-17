@@ -13,7 +13,7 @@
 
 <!-- background-color:#cbfa91; -->
 
-{{ $paginator := .Paginate (where .Data.Pages "Type" "events") 2}} 
+{{ $paginator := .Paginate (where .Data.Pages "Type" "active")}} 
   {{ range $paginator.Pages.ByDate }}
 
 
