@@ -44,12 +44,18 @@
     margin-bottom: 10px;
 } 
 
-
 .t521__leftcol.t-col.t-col_3.t-prefix_3 > div > div > div.date{
     margin-top: 3px;
     font-family: 'Roboto',sans-serif;
     font-weight: 400;
     font-size: 22px;
+}
+
+.reg-date,.reg-date h3{
+    font-family: 'Roboto',sans-serif;
+    font-size: 30px;
+    line-height: 42px;
+    font-weight: 400;    
 }
 
 .t521__leftcol.t-col.t-col_3 h3{
@@ -92,6 +98,14 @@
     #rec27825248 .t-container, #rec27798742 .t-container, #rec27798770 .t-container{
         max-width: 60%;
     }
+
+    #rec27823778-1 .t-container{
+        max-width: 70%;
+    }
+
+    #rec27815872-1 .t-container{
+        max-width: 80%;
+    }    
 }
 
  @media screen and (min-width:960px) { 
