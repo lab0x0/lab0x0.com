@@ -10,7 +10,7 @@ Friday, August 25
 +++
 
 ## JANEK (亚力克) MANN
-蓝牙LE。如何黑客的东西。
+蓝牙LE。如何黑客东西。
 Bluetooth LE. How to hack things.
 
 +++
