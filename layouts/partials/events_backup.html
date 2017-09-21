@@ -4,11 +4,8 @@
     <div class="t-container t-align_center">
       <div class="t-col t-col_8 t-prefix_2">
         <div class="t474__descr t-descr t-descr_xxxl t-margin_auto" field="descr" style="color:#ffffff;">
-          <div style="font-size:58px; font-family: Open Sans;font-weight:400;">
-            物联网</br>
-            Internet Of Things</br>
-            黑客马拉松</br>
-            HACKATHON
+          <div style="font-size:58px;font-weight: 300;">
+            LAB ZERO Open Nights
           </div>
         </div>
       </div>
@@ -18,8 +15,8 @@
 
 <!-- background-color:#cbfa91; -->
 
-<!-- {{ $paginator := .Paginate (where .Data.Pages "Type" "active")}} 
-  {{ range $paginator.Pages.ByDate }} -->
+{{ $paginator := .Paginate (where .Data.Pages "Type" "active")}} 
+  {{ range $paginator.Pages.ByDate }}
 
 
 <div id="rec25351922" class="r" style="padding-bottom:0px;background-color:#000; " data-record-type="521" data-bg-color="#000">
@@ -31,14 +28,12 @@
           <div class="t521__time t-name t-name_xl" style="" field="li_date__1477566953166">
             <div class="t521__time t-name t-name_xl" style="color:#ffffff;" field="li_date__1499612886178">
 
-               <!-- {{ $cols := split .Content "+++" }}
-              {{ range last 1 (first 1 $cols)}} -->
+               {{ $cols := split .Content "+++" }}
+              {{ range last 1 (first 1 $cols)}}
               <div class="date">
-                9月22日星期五 <br/>     
-                Friday, September 22 <br/>     
-                <!-- <h3>20:00 ~ 21:00</h3> -->
+                {{ . | markdownify }}
               </div>
-              <!-- {{ end }}  -->
+              {{ end }} 
 
             </div>
           </div>
@@ -46,7 +41,12 @@
         <div class="t521__rightcol t-col t-col_5 ">
           <div class="t521__text t-text t-text_md" style="color:#ffffff;" field="li_text__1477566953166">
             <div style="font-size:20px;font-weight: 600;" data-customstyle="yes">
-              FIRST DAY
+
+              {{ $cols := split .Content "+++" }}
+              {{ range last 1 (first 2 $cols)}}
+                {{ . | markdownify }}
+              {{ end }}
+
             </div>
           </div>
         </div>
@@ -69,10 +69,10 @@
         <div class="t521__rightcol t-col t-col_5 desc ">
           <div class="t521__text t-text t-text_md" style="color:#ffffff;" field="li_text__1477566953166">
               <div>  
-                20:00 Register all coming people, introduce guests each others <br/>                        
-                20:00 — 21:00 Free discussion between guests, jointing team and choosing projects.<br/> 
-                21:10 Administration announce final list of team and projects.<br/>
-                <br/> 
+              {{ $cols := split .Content "+++" }}
+              {{ range last 1 (first 5 $cols)}}
+                {{ . | markdownify }}
+              {{ end }}  
               </div>  
           </div>
         </div>
@@ -81,128 +81,7 @@
   </div>
 </div>   
 
-
-
-<div id="rec25351922" class="r" style="padding-bottom:0px;background-color:#000; " data-record-type="521" data-bg-color="#000">
-  <div class="t521">
-    <div class="t-container">
-
-      <div class="t521__row t-row t-clear">
-        <div class="t521__leftcol t-col t-col_3 t-prefix_3">
-          <div class="t521__time t-name t-name_xl" style="" field="li_date__1477566953166">
-            <div class="t521__time t-name t-name_xl" style="color:#ffffff;" field="li_date__1499612886178">
-
-               <!-- {{ $cols := split .Content "+++" }}
-              {{ range last 1 (first 1 $cols)}} -->
-              <div class="date">
-                9月23日星期五 <br/>     
-                Saturday, September 23 <br/>     
-                <!-- <h3>20:00 ~ 21:00</h3> -->
-              </div>
-              <!-- {{ end }}  -->
-
-            </div>
-          </div>
-        </div>
-        <div class="t521__rightcol t-col t-col_5 ">
-          <div class="t521__text t-text t-text_md" style="color:#ffffff;" field="li_text__1477566953166">
-            <div style="font-size:20px;font-weight: 600;" data-customstyle="yes">
-              THE SECOND DAY
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-
-<div id="rec25351922" class="r" style="padding-top:0px;padding-bottom:15px;background-color:#000; " data-record-type="521" data-bg-color="#000">
-  <div class="t521">
-    <div class="t-container">
-      <div class="t521__row t-row t-clear">
-        <div class="t521__leftcol t-col t-col_3 t-prefix_3">
-          <div class="t521__time t-name t-name_xl" style="" field="li_date__1477566953166">
-            <div class="t521__time t-name t-name_xl" style="color:#ffffff;" field="li_date__1499612886178">
-
-            </div>
-          </div>
-        </div>
-        <div class="t521__rightcol t-col t-col_5 desc ">
-          <div class="t521__text t-text t-text_md" style="color:#ffffff;" field="li_text__1477566953166">
-              <div>  
-                09:00 — ∞ Working on projects<br/>
-                <br/> 
-              </div>  
-          </div>
-        </div>
-      </div>
-      </div>
-  </div>
-</div>   
-
-
-
-<div id="rec25351922" class="r" style="padding-bottom:0px;background-color:#000; " data-record-type="521" data-bg-color="#000">
-  <div class="t521">
-    <div class="t-container">
-
-      <div class="t521__row t-row t-clear">
-        <div class="t521__leftcol t-col t-col_3 t-prefix_3">
-          <div class="t521__time t-name t-name_xl" style="" field="li_date__1477566953166">
-            <div class="t521__time t-name t-name_xl" style="color:#ffffff;" field="li_date__1499612886178">
-
-               <!-- {{ $cols := split .Content "+++" }}
-              {{ range last 1 (first 1 $cols)}} -->
-              <div class="date">
-                9月22日星期五 <br/>     
-                Friday, September 22 <br/>     
-                <!-- <h3>20:00 ~ 21:00</h3> -->
-              </div>
-              <!-- {{ end }}  -->
-
-            </div>
-          </div>
-        </div>
-        <div class="t521__rightcol t-col t-col_5 ">
-          <div class="t521__text t-text t-text_md" style="color:#ffffff;" field="li_text__1477566953166">
-            <div style="font-size:20px;font-weight: 600;" data-customstyle="yes">
-              THE THIRD DAY
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-
-<div id="rec25351922" class="r" style="padding-top:0px;padding-bottom:15px;background-color:#000; " data-record-type="521" data-bg-color="#000">
-  <div class="t521">
-    <div class="t-container">
-      <div class="t521__row t-row t-clear">
-        <div class="t521__leftcol t-col t-col_3 t-prefix_3">
-          <div class="t521__time t-name t-name_xl" style="" field="li_date__1477566953166">
-            <div class="t521__time t-name t-name_xl" style="color:#ffffff;" field="li_date__1499612886178">
-
-            </div>
-          </div>
-        </div>
-        <div class="t521__rightcol t-col t-col_5 desc ">
-          <div class="t521__text t-text t-text_md" style="color:#ffffff;" field="li_text__1477566953166">
-              <div>  
-                20:00 Register all coming people, introduce guests each others <br/>                        
-                20:00 — 21:00 Free discussion between guests, jointing team and choosing projects.<br/> 
-                21:10 Administration announce final list of team and projects.<br/>
-                <br/> 
-              </div>  
-          </div>
-        </div>
-      </div>
-      </div>
-  </div>
-</div>   
-
-
-<!-- <div id="rec25351922" class="r" style="padding-top:0px;padding-bottom:45px;background-color:#000; " data-record-type="521" data-bg-color="#000">
+<div id="rec25351922" class="r" style="padding-top:0px;padding-bottom:45px;background-color:#000; " data-record-type="521" data-bg-color="#000">
   <div class="t521">
     <div class="t-container">
       <div class="t521__row t-row t-clear">
@@ -211,6 +90,10 @@
             <div class="t521__time t-name t-name_xl" style="color:#ffffff;" field="li_date__1499612886178">
             
             
+              {{ $cols := split .Content "+++" }}
+              {{ range last 1 (first 3 $cols)}}
+                {{ . | markdownify }}
+              {{ end }}  
 
 
             </div>
@@ -219,16 +102,17 @@
         <div class="t521__rightcol t-col t-col_5 desc ">
           <div class="t521__text t-text t-text_md" style="color:#ffffff;" field="li_text__1477566953166">
               <div>  
- 
+              {{ $cols := split .Content "+++" }}
+              {{ range last 1 (first 4 $cols)}}
+                {{ . | markdownify }}
+              {{ end }}  
               </div>  
           </div>
         </div>
       </div>
       </div>
   </div>
-</div>      -->
-
-
+</div>          
 <!-- 
 <div id="rec27823778-1" class="r" style="padding-bottom:5px;background-color:#000;" data-record-type="224">
     <div class="t196">
@@ -283,8 +167,8 @@
 </div>
 
 
-<!-- {{ end }} -->
-<!-- 
+{{ end }}
+
   <div id="rec27913970" class="r" style="background-color:#000; " data-record-type="126">
   <div class="t118">
     <div class="t-container">
@@ -317,4 +201,4 @@
     </div>
   </div>
 </div> 
- -->
+
