@@ -1,349 +1,103 @@
 <div id="rec27918718" class="r" style="padding-top:245px;padding-bottom:10px;background-color:#000; " data-record-type="474"
-  data-bg-color="#000">
-  <div class="t474">
-    <div class="t-container t-align_center">
-      <div class="t-col t-col_8 t-prefix_2">
-        <div class="t474__descr t-descr t-descr_xxxl t-margin_auto" field="descr" style="color:#ffffff;">
-          <div style="font-size:58px; font-family: Open Sans;font-weight:400;">
-            SZDIY • LAB ZERO</br>
-            物联网</br>
-            Internet Of Things</br>
-            黑客马拉松</br>
-            HACKATHON
-          </div>
+data-bg-color="#000">
+<div class="t474">
+  <div class="t-container t-align_center">
+    <div class="t-col t-col_8 t-prefix_2">
+      <div class="t474__descr t-descr t-descr_xxxl t-margin_auto" field="descr" style="color:#ffffff;">
+        <div style="font-size:58px;font-weight: 300;">
+          LAB ZERO Open Nights
         </div>
       </div>
     </div>
   </div>
+</div>
 </div>
 
 <!-- background-color:#cbfa91; -->
 
-<!-- {{ $paginator := .Paginate (where .Data.Pages "Type" "active")}} 
-  {{ range $paginator.Pages.ByDate }} -->
-
-
-  <div id="rec25351922" class="r" style="padding-top:0px;padding-bottom:45px;background-color:#000; " data-record-type="521" data-bg-color="#000">
-    <div class="t521">
-      <div class="t-container">
-        <div class="t521__row t-row t-clear">
-          <div class="t521__leftcol t-col t-col_3 t-prefix_3">
-            <div class="t521__time t-name t-name_xl" style="" field="li_date__1477566953166">
-              <div class="t521__time t-name t-name_xl" style="color:#ffffff;" field="li_date__1499612886178">
-              
-              
-  
-  
-              </div>
-            </div>
-          </div>
-          <div class="t521__rightcol t-col t-col_5 desc ">
-            <div class="t521__text t-text t-text_md" style="color:#ffffff;" field="li_text__1477566953166">
-                <div>  
-   
-                </div>  
-            </div>
-          </div>
-        </div>
-        </div>
-    </div>
-  </div>     
+{{ $paginator := .Paginate (where .Data.Pages "Type" "active")}} 
+{{ range $paginator.Pages.ByDate }}
 
 
 <div id="rec25351922" class="r" style="padding-bottom:0px;background-color:#000; " data-record-type="521" data-bg-color="#000">
-  <div class="t521">
-    <div class="t-container">
+<div class="t521">
+  <div class="t-container">
 
-      <div class="t521__row t-row t-clear">
-        <div class="t521__leftcol t-col t-col_3 t-prefix_3">
-          <div class="t521__time t-name t-name_xl" style="" field="li_date__1477566953166">
-            <div class="t521__time t-name t-name_xl" style="color:#ffffff;" field="li_date__1499612886178">
+    <div class="t521__row t-row t-clear">
+      <div class="t521__leftcol t-col t-col_3 t-prefix_3">
+        <div class="t521__time t-name t-name_xl" style="" field="li_date__1477566953166">
+          <div class="t521__time t-name t-name_xl" style="color:#ffffff;" field="li_date__1499612886178">
 
-               <!-- {{ $cols := split .Content "+++" }}
-              {{ range last 1 (first 1 $cols)}} -->
-              <div class="date">
-                9月22日星期五 </br>     
-                FRI, September 22 </br>     
-                <!-- <h3>20:00 ~ 21:00</h3> -->
-              </div>
-              <!-- {{ end }}  -->
-
+             {{ $cols := split .Content "+++" }}
+            {{ range last 1 (first 1 $cols)}}
+            <div class="date">
+              {{ . | markdownify }}
             </div>
+            {{ end }} 
+
           </div>
         </div>
-        <div class="t521__rightcol t-col t-col_5 ">
-          <div class="t521__text t-text t-text_md" style="color:#ffffff;" field="li_text__1477566953166">
-            <div style="font-size:20px;font-weight: 600;" data-customstyle="yes">
-              THE FIRST DAY / CHOOSE YOUR TEAM
-            </div>
+      </div>
+      <div class="t521__rightcol t-col t-col_5 ">
+        <div class="t521__text t-text t-text_md" style="color:#ffffff;" field="li_text__1477566953166">
+          <div style="font-size:20px;font-weight: 600;" data-customstyle="yes">
+
+            {{ $cols := split .Content "+++" }}
+            {{ range last 1 (first 2 $cols)}}
+              {{ . | markdownify }}
+            {{ end }}
+
           </div>
         </div>
       </div>
     </div>
   </div>
 </div>
-
-<div id="rec25351922" class="r" style="padding-top:0px;padding-bottom:15px;background-color:#000; " data-record-type="521" data-bg-color="#000">
-  <div class="t521">
-    <div class="t-container">
-      <div class="t521__row t-row t-clear">
-        <div class="t521__leftcol t-col t-col_3 t-prefix_3">
-          <div class="t521__time t-name t-name_xl" style="" field="li_date__1477566953166">
-            <div class="t521__time t-name t-name_xl" style="color:#ffffff;" field="li_date__1499612886178">
-              <img src="/images/hack-2.jpg">
-            </div>
-          </div>
-        </div>
-        <div class="t521__rightcol t-col t-col_5 desc ">
-          <div class="t521__text t-text t-text_md" style="color:#ffffff;" field="li_text__1477566953166">
-              <div>  
-                <b>20:00</b> Register all coming people, introduce guests each others </br>                        
-                <b>20:00 — 21:00</b> Free discussion between guests, joining teams and choosing projects.</br> 
-                <b>21:10</b> Administration announce final list of team and projects.</br>
-              </div>  
-          </div>
-        </div>
-      </div>
-      </div>
-  </div>
-</div>   
-
-
-
-<div id="rec25351922" class="r" style="padding-bottom:0px;background-color:#000; " data-record-type="521" data-bg-color="#000">
-  <div class="t521">
-    <div class="t-container">
-
-      <div class="t521__row t-row t-clear">
-        <div class="t521__leftcol t-col t-col_3 t-prefix_3">
-          <div class="t521__time t-name t-name_xl" style="" field="li_date__1477566953166">
-            <div class="t521__time t-name t-name_xl" style="color:#ffffff;" field="li_date__1499612886178">
-
-               <!-- {{ $cols := split .Content "+++" }}
-              {{ range last 1 (first 1 $cols)}} -->
-              <div class="date">
-                9月23日星期六 </br>     
-                SAT, September 23 </br>     
-                <!-- <h3>20:00 ~ 21:00</h3> -->
-              </div>
-              <!-- {{ end }}  -->
-
-            </div>
-          </div>
-        </div>
-        <div class="t521__rightcol t-col t-col_5 ">
-          <div class="t521__text t-text t-text_md" style="color:#ffffff;" field="li_text__1477566953166">
-            <div style="font-size:20px;font-weight: 600;" data-customstyle="yes">
-              THE SECOND DAY / WORK HARD
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-
-<div id="rec25351922" class="r" style="padding-top:0px;padding-bottom:15px;background-color:#000; " data-record-type="521" data-bg-color="#000">
-  <div class="t521">
-    <div class="t-container">
-      <div class="t521__row t-row t-clear">
-        <div class="t521__leftcol t-col t-col_3 t-prefix_3">
-          <div class="t521__time t-name t-name_xl" style="" field="li_date__1477566953166">
-            <div class="t521__time t-name t-name_xl" style="color:#ffffff;" field="li_date__1499612886178">
-              <img src="/images/hack-1.jpg">
-            </div>
-          </div>
-        </div>
-        <div class="t521__rightcol t-col t-col_5 desc ">
-          <div class="t521__text t-text t-text_md" style="color:#ffffff;" field="li_text__1477566953166">
-              <div>  
-                <b>09:00 — ∞ </b> Working on projects</br>
-              </br>
-                Meet experts and discuss your projects problems.</br>
-                Write code, build prototype, fix bugs</br>
-              </div>  
-          </div>
-        </div>
-      </div>
-      </div>
-  </div>
-</div>   
-
-
-
-<div id="rec25351922" class="r" style="padding-bottom:0px;background-color:#000; " data-record-type="521" data-bg-color="#000">
-  <div class="t521">
-    <div class="t-container">
-
-      <div class="t521__row t-row t-clear">
-        <div class="t521__leftcol t-col t-col_3 t-prefix_3">
-          <div class="t521__time t-name t-name_xl" style="" field="li_date__1477566953166">
-            <div class="t521__time t-name t-name_xl" style="color:#ffffff;" field="li_date__1499612886178">
-
-               <!-- {{ $cols := split .Content "+++" }}
-              {{ range last 1 (first 1 $cols)}} -->
-              <div class="date">
-                9月24日星期天 </br>     
-                SUN, September 22 </br>     
-                <!-- <h3>20:00 ~ 21:00</h3> -->
-              </div>
-              <!-- {{ end }}  -->
-
-            </div>
-          </div>
-        </div>
-        <div class="t521__rightcol t-col t-col_5 ">
-          <div class="t521__text t-text t-text_md" style="color:#ffffff;" field="li_text__1477566953166">
-            <div style="font-size:20px;font-weight: 600;" data-customstyle="yes">
-              THE THIRD DAY / PRESENT YOUR PROJECT
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-
-<div id="rec25351922" class="r" style="padding-top:0px;padding-bottom:15px;background-color:#000; " data-record-type="521" data-bg-color="#000">
-  <div class="t521">
-    <div class="t-container">
-      <div class="t521__row t-row t-clear">
-        <div class="t521__leftcol t-col t-col_3 t-prefix_3">
-          <div class="t521__time t-name t-name_xl" style="" field="li_date__1477566953166">
-            <div class="t521__time t-name t-name_xl" style="color:#ffffff;" field="li_date__1499612886178">
-              <img src="/images/hack-3.jpg">
-            </div>
-          </div>
-        </div>
-        <div class="t521__rightcol t-col t-col_5 desc ">
-          <div class="t521__text t-text t-text_md" style="color:#ffffff;" field="li_text__1477566953166">
-              <div>  
-                <b>15:00</b>  Projects Presentation</br> 
-                <b>17:30</b>  Administration announce
-                the winner.</br>
-              </div>  
-          </div>
-        </div>
-      </div>
-      </div>
-  </div>
-</div>   
-
-
-<div id="rec25351922" class="r" style="padding-top:0px;padding-bottom:45px;background-color:#000; " data-record-type="521" data-bg-color="#000">
-  <div class="t521">
-    <div class="t-container">
-      <div class="t521__row t-row t-clear">
-        <div class="t521__leftcol t-col t-col_3 t-prefix_3">
-          <div class="t521__time t-name t-name_xl" style="" field="li_date__1477566953166">
-            <div class="t521__time t-name t-name_xl" style="color:#ffffff;" field="li_date__1499612886178">
-            
-            
-
-
-            </div>
-          </div>
-        </div>
-        <div class="t521__rightcol t-col t-col_5 desc ">
-          <div class="t521__text t-text t-text_md" style="color:#ffffff;" field="li_text__1477566953166">
-              <div>  
- 
-              </div>  
-          </div>
-        </div>
-      </div>
-      </div>
-  </div>
-</div>     
-
-
-<div id="rec27823778-1" class="r" style="padding-bottom:55px;background-color:#000;" data-record-type="224">
-    <div class="t196">
-        <div class="t-container">
-            <div class="t-col t-col_4 t-prefix_4 t-align_center">
-                <div style="color:#ffffff; font-size:20px;padding-bottom:25px; font-family: 'Open Sans',serif; font-weight: 300;">
-                    This Hackathon sponsored by
-                </div>   
-                <!-- <a href="http://makersorigin.com/">
-                    <img class="t196__img t-img" src="/images/events/mo.png" width="70%" />
-                </a> -->
-            </div>          
-        </div>
-    </div>
-  </div>
-
-
-<div id="rec27823778-1" class="r" style="padding-bottom:5px;background-color:#000;" data-record-type="224">
-    <div class="t196">
-        <div class="t-container">
-            <div class="t-col t-col_4 t-prefix_4 t-align_center">
-                <!-- <div style="color:#ffffff; font-size:20px;padding-bottom:25px; font-family: 'Open Sans',serif; font-weight: 300;">
-                    This meetup sponsored by
-                </div>    -->
-                <a href="http://makersorigin.com/">
-                    <img class="t196__img t-img" src="/images/events/mo.png" width="70%" />
-                </a>
-            </div>          
-        </div>
-    </div>
-</div>
-
-
-<div id="rec27823916" class="r" style="padding-top:15px;padding-bottom:15px;background-color:#000; " data-record-type="66">
-    <div class="t058">
-        <div class="t-container">
-            <div class="t-row">
-                <div class="t-col t-col_4 t-prefix_4">
-                    <div class="t058__text-impact t-text-impact t-text-impact_lg" field="text">
-                        <div style="color:#ffffff; font-size:16px;line-height:26px;font-weight: 300;" data-customstyle="yes">
-                                Makers Origin is a Shenzhen based hardware accelerator with its own factory and a global retail network of 8710+ point of sales. We help makers on: prototyping, crowd funding, manufacturing and sales distribution.
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
 </div>
 
 
 <div id="rec25351922" class="r" style="padding-top:0px;padding-bottom:45px;background-color:#000; " data-record-type="521" data-bg-color="#000">
-  <div class="t521">
-    <div class="t-container">
-      <div class="t521__row t-row t-clear">
-        <div class="t521__leftcol t-col t-col_3 t-prefix_3">
-          <div class="t521__time t-name t-name_xl" style="" field="li_date__1477566953166">
-            <div class="t521__time t-name t-name_xl" style="color:#ffffff;" field="li_date__1499612886178">
-            
-            
+<div class="t521">
+  <div class="t-container">
+    <div class="t521__row t-row t-clear">
+      <div class="t521__leftcol t-col t-col_3 t-prefix_3">
+        <div class="t521__time t-name t-name_xl" style="" field="li_date__1477566953166">
+          <div class="t521__time t-name t-name_xl" style="color:#ffffff;" field="li_date__1499612886178">
+          
+          
+            {{ $cols := split .Content "+++" }}
+            {{ range last 1 (first 3 $cols)}}
+              {{ . | markdownify }}
+            {{ end }}  
 
 
-            </div>
-          </div>
-        </div>
-        <div class="t521__rightcol t-col t-col_5 desc ">
-          <div class="t521__text t-text t-text_md" style="color:#ffffff;" field="li_text__1477566953166">
-              <div>  
- 
-              </div>  
           </div>
         </div>
       </div>
+      <div class="t521__rightcol t-col t-col_5 desc ">
+        <div class="t521__text t-text t-text_md" style="color:#ffffff;" field="li_text__1477566953166">
+            <div>  
+            {{ $cols := split .Content "+++" }}
+            {{ range last 1 (first 4 $cols)}}
+              {{ . | markdownify }}
+            {{ end }}  
+            </div>  
+        </div>
       </div>
-  </div>
-</div>     
+    </div>
+    </div>
+</div>
+</div>          
 
-
-
-
-<div id="rec27823778-1" class="r" style="padding-bottom:5px;background-color:#000;" data-record-type="224">
+<!-- <div id="rec27823778-1" class="r" style="padding-bottom:5px;background-color:#000;" data-record-type="224">
   <div class="t196">
       <div class="t-container">
           <div class="t-col t-col_4 t-prefix_4 t-align_center">
-              <!-- <div style="color:#ffffff; font-size:20px;padding-bottom:25px; font-family: 'Open Sans',serif; font-weight: 300;">
+              <div style="color:#ffffff; font-size:20px;padding-bottom:25px; font-family: 'Open Sans',serif; font-weight: 300;">
                   This meetup sponsored by
-              </div>    -->
-              <a href="https://www.seeedstudio.com/">
-                  <img class="t196__img t-img" src="/images/seeed.png" width="70%" />
+              </div>   
+              <a href="http://makersorigin.com/">
+                  <img class="t196__img t-img" src="/images/events/mo.png" width="70%" />
               </a>
           </div>          
       </div>
@@ -358,70 +112,80 @@
               <div class="t-col t-col_4 t-prefix_4">
                   <div class="t058__text-impact t-text-impact t-text-impact_lg" field="text">
                       <div style="color:#ffffff; font-size:16px;line-height:26px;font-weight: 300;" data-customstyle="yes">
-                              Seeed is a hardware innovation platform for makers to grow inspirations into differentiating products. By working closely with technology providers of all scale, Seeed provides accessible technologies with quality, speed and supply chain knowledge.
+                              Makers Origin is a Shenzhen based hardware accelerator with its own factory and a global retail network of 8710+ point of sales. We help makers on: prototyping, crowd funding, manufacturing and sales distribution.
                       </div>
                   </div>
               </div>
           </div>
       </div>
   </div>
-</div>
+</div> -->
 
-
-
-<div id="rec27808996-1" class="r" style="background-color:#000000;padding-top:35px;padding-bottom:190px; " data-record-type="191" data-bg-color="#fff5ba">
-    <div class="t142">
-        <div class="t-container_100">
-            <div class="t142__wrapone">
-                <div class="t142__wraptwo">
-                    <a href="/reg" target="">
-                        <div class="t-btn t142__submit t142__submit_size_xl" style="color:#ffffff;border:3px solid #ffffff;background-color:#000000;">报名 / Register</div>
-                    </a>
-                </div>
-            </div>
-        </div>
-    </div>
-    <script type="text/javascript">
-        $(document).ready(function () {
-            t142_checkSize('27808996-1');
-        });
-
-    </script>
-</div>
-
-
-<!-- {{ end }} -->
-<!-- 
-  <div id="rec27913970" class="r" style="background-color:#000; " data-record-type="126">
-  <div class="t118">
-    <div class="t-container">
-      <div class="t-col t-col_12 ">
-        <hr class="t118__line" style="background-color:#ffffff;opacity:1;">
+<!-- <div id="rec27808996-1" class="r" style="background-color:#000000;padding-top:35px;padding-bottom:65px; " data-record-type="191" data-bg-color="#fff5ba">
+  <div class="t142">
+      <div class="t-container_100">
+          <div class="t142__wrapone">
+              <div class="t142__wraptwo">
+                  <a href="/reg" target="">
+                      <div class="t-btn t142__submit t142__submit_size_xl" style="color:#ffffff;border:3px solid #ffffff;background-color:#000000;">报名 / Register</div>
+                  </a>
+              </div>
+          </div>
       </div>
+  </div>
+  <script type="text/javascript">
+      $(document).ready(function () {
+          t142_checkSize('27808996-1');
+      });
+
+  </script>
+</div> -->
+
+
+<div id="rec27823778-1" class="r" style="background-color:#000000;padding-bottom:40px;" data-record-type="224">
+  <div class="t196">
+      <div class="t-container">
+          <div class="t-col t-col_2 t-prefix_5 t-align_center">
+              <div class="t-name t-name_md t510__bottommargin" style="padding-top:30px;padding-bottom:5px;color:#ffffff;font-size:36px;font-family: Open Sans;font-weight:400;" field="li_title__1476966593578">报名 </br> Register</div>
+              <img class="t196__img t-img" src="/images/qr.jpg"/>
+          </div>
+      </div>
+  </div>
+</div>    
+
+
+
+{{ end }}
+
+<div id="rec27913970" class="r" style="background-color:#000; " data-record-type="126">
+<div class="t118">
+  <div class="t-container">
+    <div class="t-col t-col_12 ">
+      <hr class="t118__line" style="background-color:#ffffff;opacity:1;">
     </div>
   </div>
+</div>
 </div>  
 
 
- <div id="rec27915576" class="r" style="padding-top:30px;padding-bottom:230px;background-color:#000; " data-record-type="474">
-  <div class="t474">
-    <div class="t-container t-align_center" style="text-align: left!important;">
-      <div class="t-col t-col_8 t-prefix_3">
-        <div class="t474__descr t-descr t-descr_xxxl t-margin_auto" field="descr" style="color:#ffffff;font-size:22px;">
-          <div style="font-size:18px;color:#ffffff;" data-customstyle="yes">
-            <span style="font-weight: 400;">
-            — Can I run an event at LAB ZERO? <br />
-            — Yes, every week on Friday we have LAB ZERO Open Nights from 19:00 to 21:00  
-            <br />
-            <br /> 
-            If you are a maker, and would like to teach people how to build something, <br />
-            you can share your project on LAB ZERO Open Nights. Please contact us.
-          </span>
-          </br>
-        </div>
-        </div>
+<div id="rec27915576" class="r" style="padding-top:30px;padding-bottom:230px;background-color:#000; " data-record-type="474">
+<div class="t474">
+  <div class="t-container t-align_center" style="text-align: left!important;">
+    <div class="t-col t-col_8 t-prefix_3">
+      <div class="t474__descr t-descr t-descr_xxxl t-margin_auto" field="descr" style="color:#ffffff;font-size:22px;">
+        <div style="font-size:18px;color:#ffffff;" data-customstyle="yes">
+          <span style="font-weight: 400;">
+          — Can I run an event at LAB ZERO? <br />
+          — Yes, every week on Friday we have LAB ZERO Open Nights from 19:00 to 21:00  
+          <br />
+          <br /> 
+          If you are a maker, and would like to teach people how to build something, <br />
+          you can share your project on LAB ZERO Open Nights. Please contact us.
+        </span>
+        <br/>
+      </div>
       </div>
     </div>
   </div>
+</div>
 </div> 
- -->
