@@ -4,7 +4,7 @@ type: "active"
 ---
 
 10月14日星期六
-Sautday, October 14
+Saturday, October 14
 ### 18:00 ~ 20:00 
 
 +++
@@ -17,7 +17,7 @@ Chinese and Western makerspace model.
 
 +++
 
-![](/images/janek.jpg)
+![](/images/events/mitch.jpg)
 
 +++
 
