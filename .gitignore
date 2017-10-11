@@ -4,7 +4,7 @@ static/images
 static/videos
 le
 test.conf
+upload.sh
 *~
 *.swp
 .env
-
