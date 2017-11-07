@@ -1,0 +1,115 @@
+.t253__text {
+    margin-bottom: 24px;
+}
+
+.t214__blockimg {
+    max-width: 100%;
+    height: 360px;
+    margin-bottom: 20px;
+}
+
+.t558__bubble {
+    padding: 15px 18px;
+}
+
+.t521__rightcol.t-col.t-col_5 h2{
+    font-family: 'Roboto',sans-serif;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 1.35;
+    margin-bottom: 10px;
+} 
+
+.t521__rightcol.t-col.t-col_5 p{
+    font-family: 'Roboto',sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1.65;
+} 
+
+.t521__rightcol.t-col.t-col_5.desc p{
+    font-family: 'Roboto',sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+} 
+
+.t521__rightcol.t-col.t-col_5.desc h3{
+    font-family: 'Roboto',sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    text-decoration: underline;
+} 
+
+.t521__rightcol.t-col.t-col_5.desc p:nth-child(1n+3){
+    margin-bottom: 10px;
+} 
+
+.t521__leftcol.t-col.t-col_3.t-prefix_3 > div > div > div.date{
+    margin-top: 3px;
+    font-family: 'Roboto',sans-serif;
+    font-weight: 400;
+    font-size: 22px;
+}
+
+.reg-date,.reg-date h3{
+    font-family: 'Roboto',sans-serif;
+    font-size: 30px;
+    line-height: 42px;
+    font-weight: 400;    
+}
+
+.t521__leftcol.t-col.t-col_3 h3{
+    font-family: 'Roboto',sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    margin-top: 5px;
+}
+
+.t521__leftcol.t-col.t-col_3 img{
+    padding-top: 5px;
+}
+
+.t521__rightcol.t-col.t-col_6.desc p:nth-child(1n+3){
+      margin-bottom: 10px;  
+} 
+
+.t521__rightcol, .t521__leftcol {
+    margin-top: 45px;
+    margin-bottom: 0px;
+}
+
+@media screen and (max-width: 520px) {
+    .t681__pricewrapper {
+        text-align: center !important;
+    }
+}
+
+@media screen and (max-width:960px) {
+    #rec25351922 .t-container {
+        max-width: 640px;
+        text-align: center;
+    }
+    #rec27825054 .t-container, #rec27826554 .t-container, #rec27815872 .t-container, #rec27823778 .t-container, #rec27917992 .t-container, #rec28169108 .t-container{
+        max-width: 40%;
+    }
+    #rec27917992 .t-container{
+        max-width: 30%;
+    }
+    #rec27825248 .t-container, #rec27798742 .t-container, #rec27798770 .t-container{
+        max-width: 60%;
+    }
+
+    #rec27823778-1 .t-container{
+        max-width: 70%;
+    }
+
+    #rec27815872-1 .t-container{
+        max-width: 80%;
+    }    
+}
+
+ @media screen and (min-width:960px) { 
+    #rec29066689 .t-container .t214__blockimg.second-row{
+         max-height: 150px; 
+    }
+ } 
