@@ -23,8 +23,3 @@ disable404 = true
 disableHugoGeneratorInject = true
 disableKinds = ["events", "page", "home", "section", "taxonomy", "taxonomyTerm", "RSS", "sitemap", "robotsTXT", "404"]
 paginatePath = "events/page"
-
-[params.settings]
-    events = true
-    notice = true
-    button = true

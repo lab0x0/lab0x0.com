@@ -4,31 +4,16 @@
 <div id="allrecords" class="t-records" data-blocks-animationoff="yes">
 
 {{ partial "cover" . }} 
-
-<!-- {{ if .Site.Params.settings.notice }}
-  {{ partial "notice" . }}
-{{ end }}   -->
-
-{{ if .Site.Params.settings.button }}
-  {{ partial "button" . }}
-{{ end }}  
-
-{{ if .Site.Params.settings.events }}
-   {{ partial "events" . }} 
-{{ end }}  
-
+{{ partial "button" . }}
+{{ partial "events" . }} 
 {{ partial "story" . }} 
-<!-- {{ partial "team" . }}  -->
-
 {{ partial "services" . }}
 {{ partial "photos" . }}
-<!-- {{ partial "video" . }} -->
 {{ partial "membership" . }}
 {{ partial "business" . }}
 {{ partial "map" . }}
 {{ partial "wechat" . }}
 {{ partial "github" . }}
-<!-- {{ partial "makerspaces" . }} -->
 {{ partial "help" . }}
 
 </div>

@@ -13,8 +13,6 @@ data-bg-color="#000">
 </div>
 </div>
 
-<!-- background-color:#cbfa91; -->
-
 {{ $paginator := .Paginate (where .Data.Pages "Type" "active")}} 
 {{ range $paginator.Pages.ByDate }}
 
@@ -89,58 +87,6 @@ data-bg-color="#000">
 </div>
 </div>          
 
-<!-- <div id="rec27823778-1" class="r" style="padding-bottom:5px;background-color:#000;" data-record-type="224">
-  <div class="t196">
-      <div class="t-container">
-          <div class="t-col t-col_4 t-prefix_4 t-align_center">
-              <div style="color:#ffffff; font-size:20px;padding-bottom:25px; font-family: 'Open Sans',serif; font-weight: 300;">
-                  This meetup sponsored by
-              </div>   
-              <a href="http://makersorigin.com/">
-                  <img class="t196__img t-img" src="/images/events/mo.png" width="70%" />
-              </a>
-          </div>          
-      </div>
-  </div>
-</div>
-
-
-<div id="rec27823916" class="r" style="padding-top:15px;padding-bottom:15px;background-color:#000; " data-record-type="66">
-  <div class="t058">
-      <div class="t-container">
-          <div class="t-row">
-              <div class="t-col t-col_4 t-prefix_4">
-                  <div class="t058__text-impact t-text-impact t-text-impact_lg" field="text">
-                      <div style="color:#ffffff; font-size:16px;line-height:26px;font-weight: 300;" data-customstyle="yes">
-                              Makers Origin is a Shenzhen based hardware accelerator with its own factory and a global retail network of 8710+ point of sales. We help makers on: prototyping, crowd funding, manufacturing and sales distribution.
-                      </div>
-                  </div>
-              </div>
-          </div>
-      </div>
-  </div>
-</div> -->
-
-<!-- <div id="rec27808996-1" class="r" style="background-color:#000000;padding-top:35px;padding-bottom:65px; " data-record-type="191" data-bg-color="#fff5ba">
-  <div class="t142">
-      <div class="t-container_100">
-          <div class="t142__wrapone">
-              <div class="t142__wraptwo">
-                  <a href="/reg" target="">
-                      <div class="t-btn t142__submit t142__submit_size_xl" style="color:#ffffff;border:3px solid #ffffff;background-color:#000000;">报名 / Register</div>
-                  </a>
-              </div>
-          </div>
-      </div>
-  </div>
-  <script type="text/javascript">
-      $(document).ready(function () {
-          t142_checkSize('27808996-1');
-      });
-
-  </script>
-</div> -->
-
 
 <div id="rec27823778-1" class="r" style="background-color:#000000;padding-bottom:40px;" data-record-type="224">
   <div class="t196">
@@ -152,8 +98,6 @@ data-bg-color="#000">
       </div>
   </div>
 </div>    
-
-
 
 {{ end }}
 
